@@ -18,4 +18,15 @@
 <!--                                 menuId="assistTools" isMenu="true"/>-->
 <!--    <ToolFxmlLoaderConfiguration title="games"-->
 <!--                                 menuId="games" isMenu="true"/>-->
+  <ToolFxmlLoaderConfiguration title="littleTools" menuId="p-littleTools" menuParentId="moreToolsMenu" isMenu="true" />
+  <ToolFxmlLoaderConfiguration>
+    <url>/com/xwintop/xJavaFxTool/fxmlView/littleTools/ExcelSplitTool.fxml</url>
+    <resourceBundleName>locale.ExcelSplitTool</resourceBundleName>
+    <className></className>
+    <title>Title</title>
+    <isDefaultShow></isDefaultShow>
+    <menuId></menuId>
+    <menuParentId>p-littleTools</menuParentId>
+    <controllerType>Node</controllerType>
+  </ToolFxmlLoaderConfiguration>
 </root>
